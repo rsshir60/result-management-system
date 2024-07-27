@@ -1,0 +1,47 @@
+# Node.js
+node_modules/
+
+# Environment variables
+.env
+
+# Logs
+logs/
+*.log
+
+# Test results
+coverage/
+test-results/
+
+# Build output
+dist/
+build/
+
+# IDE-specific files
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.swp
+*.swo
+
+# Package-lock
+package-lock.json
+
+# Backend-specific
+backend/
+  # Ignore specific backend-related files or directories here
+  backend/node_modules/
+  backend/dist/
+  backend/build/
+
+# Frontend-specific
+frontend/
+  # Ignore specific frontend-related files or directories here
+  frontend/node_modules/
+  frontend/build/
